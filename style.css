@@ -1,0 +1,23 @@
+  /* Custom properties */
+  :root{
+    --white: #FFFFFF;
+    --black: #000000;
+  }
+  
+  /* Reset */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Generics */
+  body {
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  /* Utils */
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
