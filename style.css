@@ -2,6 +2,17 @@
   :root{
     --white: #FFFFFF;
     --black: #000000;
+    --bright-blue: #0061FF;
+    --light-light-blue: #B4D0E7;
+    --light-blue: #0093CE;
+    --green: #A2D39B;
+    --light-green: #D1E9CD;
+    --bordeaux: #61082B;
+    --grey: #F5F5F5;
+    --red: #D5001F;
+    --bright-red: #FF1C1C;
+    --dark-blue: #0D2481;
+    --yellow: #FFD830;
   }
   
   /* Reset */
@@ -14,10 +25,69 @@
   /* Generics */
   body {
     font-family: 'Open Sans', sans-serif;
+    color: var(--black);
   }
-  
+
+
   /* Utils */
-  .container {
+  .large-container {
     max-width: 1000px;
     margin: 0 auto;
   }
+
+  .small-container {
+    max-width: 850px;
+    margin: 0 auto;
+  }
+
+  header{
+    background-color: var(--dark-blue);
+    display: flex;
+  }
+
+  
+  /* Navbar */
+  .navbar{
+    height: 80px;
+    flex-basis: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar-logo{
+    background-color: red;
+    flex-basis: 10%;
+  }
+
+  .navbar-menu{
+    height: 80px;
+    flex-basis: 90%;
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar-menu-left{
+    background-color: purple;
+    flex-basis: 20%;
+  }
+
+  .navbar-menu-center{
+    background-color: green;
+    flex-basis: 50%;
+  }
+
+  .navbar-menu-right{
+    background-color: var(--bordeaux);
+    flex-basis: 30%;
+  }
+
+
+
+
+
+
+
+
+  
+
+
