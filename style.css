@@ -44,8 +44,14 @@
     background-color: var(--dark-blue);
   }
 
-  .section-general{
-    margin: 50px 0;
+  .section-dimension-general{
+    margin: 100px 0;
+  }
+
+  .section-title{
+    background-color: #0D2481;
+    height: 80px;
+    margin-bottom: 30px;
   }
 
   /* Navbar */
@@ -106,7 +112,7 @@
     height: 280px;
   }
 
-  /* Section-plan-business */
+  /* Section-plan */
 
   .section-plan{
     margin-top: 100px;
@@ -114,11 +120,8 @@
     height: 1300px;
   }
 
-  .title-section{
-    background-color: #0D2481;
+  .section-plan-title{
     width: 70%;
-    height: 80px;
-    margin-bottom: 30px;
   }
 
   .choice-billing{
@@ -163,6 +166,24 @@
     background-color: blue;
     flex-basis: 40%;
     height: 300px;
+  }
+
+  /* Section-operations */
+
+  .section-operations-title{
+    width: 85%;
+  }
+
+  .row-operations{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 50px;
+  }
+
+  .column-operations{
+    flex-basis: calc(100% / 3);
+    height: 250px;
+    background-color: #0061FF;
   }
 
   
