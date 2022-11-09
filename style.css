@@ -44,6 +44,10 @@
     background-color: var(--dark-blue);
   }
 
+  .section-general{
+    margin: 50px 0;
+  }
+
   /* Navbar */
   .navbar{
     height: 80px;
@@ -102,10 +106,66 @@
     height: 280px;
   }
 
+  /* Section-plan-business */
 
- 
+  .section-plan{
+    margin-top: 100px;
+    background-color: greenyellow;
+    height: 1300px;
+  }
 
+  .title-section{
+    background-color: #0D2481;
+    width: 70%;
+    height: 80px;
+    margin-bottom: 30px;
+  }
 
+  .choice-billing{
+    width: 40%;
+    height: 30px;
+    background-color: red;
+    margin-bottom: 20px;
+  }
+
+  .vertical-row{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+  }
+
+  .vertical-row > .column{
+    flex-basis: calc(100% / 3);
+    height: 450px;
+    background-color: blue;
+  }
+
+  .horizontal-row{
+    height: 180px;
+    background-color: blue;
+    margin-bottom: 80px;
+  }
+
+  .partner-dropbox{
+    background-color: #000000;
+    height: 350px;
+    display: flex;
+    gap: 30px;
+  }
+
+  .partner-dropbox-img{
+    background-color: red;
+    flex-basis: 60%;
+    height: 300px;
+  }
+
+  .partner-dropbox-content{
+    background-color: blue;
+    flex-basis: 40%;
+    height: 300px;
+  }
+
+  
 
 
 
