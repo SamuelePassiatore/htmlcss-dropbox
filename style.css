@@ -186,6 +186,17 @@
     background-color: #0061FF;
   }
 
+  /* Section-team */
+  .section-team-title{
+    width: 60%;
+  }
+
+  .section-team-content{
+    background-color: purple;
+    height: 20px;
+    width: 20%;
+  }
+
   
 
 
