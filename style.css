@@ -45,6 +45,12 @@
     background-color: var(--dark-blue);
   }
 
+  footer{
+    color: white;
+    background-color: var(--black);
+    height: 500px;
+  }
+
   .section-dimension-general{
     margin: 100px 0;
   }
@@ -112,6 +118,9 @@
     flex-basis: 60%;
     height: 280px;
   }
+
+  /* Main */
+
 
   /* Section-plan */
 
@@ -293,17 +302,47 @@
   /* Sections FAQ */
   .section-faq-title{
     width: 50%;
-
   }
 
   .usual-faq{
     height: 80px;
-
     border-top: 1px solid var(--dark-grey);
     border-bottom: 1px solid var(--dark-grey);
     display: flex;
     align-items: center;
     justify-content: space-between;
+  }
+
+  /* Footer */
+
+  .footer-content{
+    padding: 50px 0;
+  }
+
+  .footer-top{
+    flex-basis: 100%;
+    background-color: red;
+    display: flex;
+    gap: 10px;
+  }
+
+  .footer-bottom{
+    width: 15%;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid var(--white);
+  }
+
+  .footer-top > ul{
+    background-color: blue;
+    flex-basis: 20%;
+    height: 250px;
+    margin-bottom: 70px;
+  }
+
+  .language{
+    padding-left: 5px;
   }
 
 
