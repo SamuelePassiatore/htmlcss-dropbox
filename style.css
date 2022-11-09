@@ -9,6 +9,7 @@
     --light-green: #D1E9CD;
     --bordeaux: #61082B;
     --grey: #F5F5F5;
+    --dark-grey: #C9C9C9;
     --red: #D5001F;
     --bright-red: #FF1C1C;
     --dark-blue: #0D2481;
@@ -51,7 +52,7 @@
   .section-title{
     background-color: #0D2481;
     height: 80px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
   }
 
   /* Navbar */
@@ -271,7 +272,7 @@
   }
 
   .dropbox-company-content{
-    height: 180px;
+    height: 200px;
     display: flex;
     align-items: center;
     gap: 10px;
@@ -287,6 +288,22 @@
     background-color: brown;
     flex-basis: 50%;
     text-align: center;
+  }
+
+  /* Sections FAQ */
+  .section-faq-title{
+    width: 50%;
+
+  }
+
+  .usual-faq{
+    height: 80px;
+
+    border-top: 1px solid var(--dark-grey);
+    border-bottom: 1px solid var(--dark-grey);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 
 
