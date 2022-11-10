@@ -144,6 +144,42 @@
     padding-right: 20px;
   }
 
+  .pt-20{
+    padding-top: 20px;
+  }
+
+  .bg-green{
+    background-color: var(--green);
+  }
+
+  .bg-bordeaux{
+    background-color: var(--bordeaux);
+  }
+
+  .bg-light-blue{
+    background-color: var(--light-blue); 
+  }
+
+  .bg-bright-red{
+    background-color: var(--bright-red);
+  }
+
+  .bg-red{
+    background-color: var(--red);
+  }
+
+  .bg-light-light-blue{
+    background-color: var(--light-light-blue);
+  }
+
+  .bg-dark-blue{
+    background-color: var(--dark-blue);
+  }
+
+  .bg-yellow{
+    background-color: var(--yellow);
+  }
+
   /* Navbar */
   .navbar{
     height: 70px;
@@ -378,10 +414,6 @@
   }
 
   /* Section-asset-square */
-  .section-asset-square{
-    height: 350px;
-    }
-
   .row-square{
     display: flex;
     height: 350px;
@@ -389,6 +421,7 @@
 
   .column-square-left{
     flex-basis: calc(100% / 3);
+    background-color: white;
   }
 
   .column-square-center{
@@ -398,6 +431,7 @@
 
   .column-square-right{
     flex-basis: calc(100% / 3);
+    background-color: white;
   }
 
   .card-square-over, .card-square-bottom{
@@ -406,44 +440,30 @@
     height: 50%;
   }
 
-  .card-square-over > .square{
+ .content-square {
     flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
-  .card-square-bottom > .square{
-    flex-basis: 50%;
-  }
-
-  #designit-green{
-    background-color: var(--green);
-  }
-
-  #arizona{ 
-    background-color: var(--bordeaux);
+  .row-square img{
+    height: 40%;
+    width: 40%;
   }
 
   #florida{
-    background-color: var(--light-blue);
+    width: 40%;
+    height: 10%;
   }
 
-  #topps{
-    background-color: var(--bright-red);
+  .paragraph-square{
+    width: 90%;
   }
 
-  #world-bycicle{
-    background-color: var(--red);
-  }
-
-  #hearst{
-    background-color: var(--light-light-blue) ;
-  }
-
-  #lonely-planet{
-    background-color: var(--dark-blue);
-  }
-
-  #clear-channel{
-    background-color: var(--yellow);
+  .border-empty{
+    width: 20%;
+    border-top: 1px solid var(--dark-grey);
   }
 
   .dropbox-company{
@@ -453,20 +473,24 @@
   .dropbox-company-content{
     height: 200px;
     display: flex;
+    flex-basis: 100%;
     align-items: center;
-    gap: 10px;
+    justify-content: space-between;
   }
 
   .dropbox-company-content-title{
     align-items: center;
-    background-color: red;
+    color: var(--bordeaux);
     flex-basis: 50%;
   }
 
   .dropbox-company-content-button{
-    background-color: brown;
-    flex-basis: 50%;
     text-align: center;
+  }
+
+  .dropbox-company-content button{
+    border: 1px solid var(--white);
+    background-color: var(--white);
   }
 
   /* Sections FAQ */
@@ -514,6 +538,8 @@
   .language{
     padding-left: 5px;
   }
+
+
 
 
 
