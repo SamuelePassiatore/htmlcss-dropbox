@@ -87,19 +87,25 @@
   .section-dimension-general{
     margin: 50px 0;
   }
-  
+
   .section-title{
     height: 80px;
   }
 
   button{
-    border: 1px solid transparent;
     padding: 4px 8px;
   }
 
   .button-blue{
     background-color: var(--bright-blue);
-    color: white;
+    color: var(--white);
+    border: 1px solid transparent;
+  }
+
+  .button-grey{
+    background-color: var(--white);
+    color: var(--black);
+    border: 2px solid var(--dark-grey);
   }
 
   .mb-5{
@@ -274,19 +280,16 @@
 
   .partner-dropbox{
     display: flex;
+    gap: 30px;
   }
 
   .partner-dropbox-img{
     flex-basis: 70%;
   }
 
-  .partner-dropbox-img > img{
-    height: 80%;
-  }
-
   .partner-dropbox-content{
     flex-basis: 30%;
-    height: 300px;
+    padding: 60px 0;
   }
 
   .customer-plan{
