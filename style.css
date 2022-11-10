@@ -14,6 +14,7 @@
     --bright-red: #FF1C1C;
     --dark-blue: #0D2481;
     --yellow: #FFD830;
+    --dark-dark-grey: #a9a9a9;
   }
   
   /* Reset */
@@ -28,6 +29,26 @@
     font-family: 'Open Sans', sans-serif;
     color: var(--black);
     padding-top: 70px;
+  }
+
+  ul{
+    list-style-type: none;
+    padding-inline-start: 0;
+    /* list-style-position: inside; */
+  }
+
+  img{
+    display: block;
+    max-width: 100%;
+  }
+
+  h1{
+    font-size: 50px;
+    font-weight: 800;
+  }
+
+  p{
+    font-size: 14px;
   }
 
   /* Utils */
@@ -46,7 +67,7 @@
     top: 0;
     left: 0;
     right: 0;
-    z-index: 2;
+    box-shadow: 0 0 3px var(--dark-dark-grey);
   }
 
   footer{
@@ -65,18 +86,23 @@
     margin-bottom: 40px;
   }
 
-  ul{
-    list-style-type: none;
-    padding-inline-start: 0;
-    /* list-style-position: inside; */
+  button{
+    border: 1px solid transparent;
+    padding: 4px 8px;
+    font-size: 12px;
   }
 
-  button{
+  .button-blue{
     background-color: var(--bright-blue);
-    border: 1px solid transparent;
     color: white;
-    padding: 3px 8px;
-    font-size: 12px;
+  }
+
+  .mb-20{
+    margin-bottom: 20px;
+  }
+
+  .mb-40{
+    margin-bottom: 40px;
   }
 
   /* Navbar */
@@ -110,6 +136,7 @@
 
   .logo > img{
     width: 90%;
+    padding-left: 8px;
   }
 
   .actions > ul{
@@ -127,43 +154,38 @@
 
   .button-nav{
     position: relative;
-    bottom: 2px;
+    bottom: 2.5px;
   }
 
-  /* Jumbotron */
-  .jumbotron-background{
-    height: 400px;
+
+  /* Main */
+
+   /* Jumbotron */
+   .jumbotron-background{
+    height: 480px;
     background-color: var(--light-light-blue);
+    padding-top: 30px;
   }
 
   .jumbotron-title{
-    width: 90%;
+    width: 80%;
     height: 150px;
-    background-color: red;
-    margin-bottom: 30px;
   }
 
   .jumbotron-content{
     width: 100%;
     display: flex;
-    gap: 20px;
   }
 
   .jumbotron-content-description{
-    background-color: orange;
-    flex-basis: 40%;
-    height: 200px;
+    flex-basis: 35%;
   }
 
   .jumbotron-content-image{
-    background-color: green;
-    flex-basis: 60%;
+    flex-basis: 65%;
     height: 280px;
   }
-
-  /* Main */
-
-
+  
   /* Section-plan */
 
   .section-plan{
