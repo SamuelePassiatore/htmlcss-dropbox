@@ -34,7 +34,6 @@
   ul{
     list-style-type: none;
     padding-inline-start: 0;
-    /* list-style-position: inside; */
   }
 
   img{
@@ -207,6 +206,7 @@
 
   .logo{
     display: flex;
+    padding: 23px 0;
   }
 
   .logo > img{
@@ -216,11 +216,16 @@
 
   .actions > ul{
     display: flex;
+    padding: 20px 0;
   }
 
-  .actions li{
-    padding: 0 10px;
-   }
+  .navbar-part-left li{
+    padding: 26px 10px;
+  }
+
+  .navbar-part-right li{
+    padding: 23px 10px;
+  }
 
   .actions{
     display: flex;
@@ -560,6 +565,15 @@
   .language{
     padding-left: 7px;
     padding-right: 2px;
+  }
+
+  /* Hover */
+  .actions li:hover {
+    border-bottom: 2px solid black;
+  }
+
+  .logo:hover {
+    border-bottom: 2px solid black;
   }
 
 
