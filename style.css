@@ -62,6 +62,10 @@ span, li, button, a{
   font-size: 12px;
 }
 
+button, header li, a{
+  cursor: pointer;
+}
+
 /* Utils */
 .large-container {
   max-width: 950px;
@@ -133,6 +137,10 @@ button{
 
 .mb-50{
   margin-bottom: 40px;
+}
+
+.mr-5{
+  margin-right: 5px;
 }
 
 .pl-20{
@@ -362,6 +370,14 @@ button{
   width: 85%;
 }
 
+ul.icon-list > li {
+  display: flex;
+}
+
+.icon-list > li > :first-child{
+  margin-right: 5px;
+}
+
 .customer-plan-highlights li{
   width: 90%;
 }
@@ -370,8 +386,8 @@ button{
   text-align: center;
 }
 
-.button-special{
-  padding: 5px 32px; 
+.button-col-85{
+  width: 85%; 
 }
 
 .customer-plan-buynow > .border-special{
@@ -430,17 +446,16 @@ button{
 
 .column-square-left{
   flex-basis: calc(100% / 3);
-  background-color: white;
 }
 
 .column-square-center{
   flex-basis: calc(100% / 3);
   background-color: var(--grey);
+  border: 10px solid transparent;
 }
 
 .column-square-right{
   flex-basis: calc(100% / 3);
-  background-color: white;
 }
 
 .card-square-over, .card-square-bottom{
@@ -449,21 +464,28 @@ button{
   height: 50%;
 }
 
-.content-square {
+.content-square-lateral{
   flex-basis: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 10px solid transparent;
+}
+
+.content-square-lateral:hover{
+  border: 10px solid rgba(255, 255, 255, 0.5);
+}
+
+.column-square-center:hover{
+  border: 10px solid rgba(220, 220, 220, 0.5);
 }
 
 .row-square img{
-  height: 40%;
-  width: 40%;
+  width: 50%;
 }
 
-#florida{
-  width: 40%;
-  height: 10%;
+.img-right, .img-left{
+  filter: invert(1);
 }
 
 .paragraph-square{
@@ -578,19 +600,20 @@ button{
 
 .logo:hover {
   border-bottom: 2px solid black;
+  cursor: pointer;
 }
 
 button:hover{
-  text-shadow: 0 0 1px rgba(255, 255, 255, 0.9);
+  text-shadow: 0 0 3px rgba(255, 255, 255, 0.9);
 }
 
 .dropbox-company .button:hover{
-  text-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
   color: var(--dark-dark-grey);
 }
 
 .partner-dropbox-content .button:hover{
-  text-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
   color: var(--dark-dark-grey);
 }
 
@@ -601,6 +624,10 @@ button:hover{
 
 a:hover{
   text-shadow: 0 0 1px rgba(0, 97, 255, 0.9);
+}
+
+.footer-top li:first-child:hover{
+  text-decoration: underline;
 }
 
 
