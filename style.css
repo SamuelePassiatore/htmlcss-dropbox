@@ -276,6 +276,24 @@ button{
   color: var(--black);
 }
 
+.arrow-special{
+  animation-name: bounce;
+  animation-duration: 0.5s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(15px);
+  }
+}
+
 /* Section-plan */
 .section-plan{
   margin-top: 150px;
@@ -529,19 +547,19 @@ ul.icon-list > li {
   width: 50%;
 }
 
-.usual-faq{
-  height: 80px;
+.section-faq{
   border-bottom: 1px solid var(--dark-grey);
+}
+
+.usual-faq {
+  height: 80px;
+  border-top: 1px solid var(--dark-grey);
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.usual-faq-first{
-  border-top: 1px solid var(--dark-grey);
-}
-
-.fa-angle-down{
+.fa-angle-down {
   padding-right: 30px;
 }
 
@@ -617,7 +635,7 @@ button:hover{
   color: var(--dark-dark-grey);
 }
 
-.a-special:hover{
+.arrow-special:hover{
   text-shadow: 0 0 5px rgba(255, 255, 255, 0.9);
   color: var(--bright-blue);
 }
