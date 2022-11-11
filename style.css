@@ -83,6 +83,7 @@ header{
   left: 0;
   right: 0;
   box-shadow: 0 0 3px var(--dark-dark-grey);
+  z-index: 1;
 }
 
 footer{
@@ -559,7 +560,7 @@ ul.icon-list > li {
   justify-content: space-between;
 }
 
-.fa-angle-down {
+.fa-angle-down, .fa-angle-up {
   padding-right: 30px;
 }
 
@@ -647,6 +648,30 @@ a:hover{
 .footer-top li:first-child:hover{
   text-decoration: underline;
 }
+
+.fa-angle-up{
+  display: none;
+}
+
+.p-hidden{
+  display: none;
+}
+
+.usual-faq:hover .fa-angle-down{
+  display: none;
+}
+
+.usual-faq:hover .p-hidden{
+  display: block;
+}
+
+.usual-faq:hover .fa-angle-up{
+  display: block;
+}
+
+
+
+
 
 
 
