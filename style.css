@@ -31,6 +31,21 @@ body {
   padding-top: 70px;
 }
 
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 0 3px var(--dark-dark-grey);
+  z-index: 1;
+}
+
+footer{
+  color: var(--white);
+  background-color: var(--black);
+  height: 500px;
+}
+
 ul{
   list-style-type: none;
   padding-inline-start: 0;
@@ -54,10 +69,6 @@ p{
   font-size: 14px;
 }
 
-.p-little{
-  font-size: 13px;
-}
-
 span, li, button, a{
   font-size: 12px;
 }
@@ -75,21 +86,6 @@ button, header li, a{
 .small-container {
   max-width: 800px;
   margin: 0 auto;
-}
-
-header{
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  box-shadow: 0 0 3px var(--dark-dark-grey);
-  z-index: 1;
-}
-
-footer{
-  color: var(--white);
-  background-color: var(--black);
-  height: 500px;
 }
 
 .section-dimension-general{
@@ -114,6 +110,10 @@ button{
   background-color: var(--white);
   color: var(--black);
   border: 2px solid var(--dark-grey);
+}
+
+.p-little{
+  font-size: 13px;
 }
 
 .mb-5{
@@ -668,29 +668,3 @@ a:hover{
 .usual-faq:hover .fa-angle-up{
   display: block;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
